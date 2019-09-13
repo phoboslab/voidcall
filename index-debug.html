@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no, viewport-fit=cover">
+	<title>VOIDCALL</title>
+	<style>
+		* {font-size:1.2vw;-webkit-touch-callout:none;-webkit-user-select:none;margin:0;}
+		#a,#t,#p,#pc,#pu{position:absolute;}
+		#c{display:block;}
+		#p{top:1vw;right:2vw;height:0.5vw;width:12vw;background:rgba(0,0,0,0.7);display:none;}
+		#pc,#pu{height:100%;background:rgba(0,149,255,0.83);transition:width 1s;width:0;}
+		#pu{background:none;border-right:2px solid #fff;}
+		#a{top:2vw;left:2vw;font-size:1.2vw;width:94%;text-shadow: 0 0 7px #fff;color:#fff;}
+		#t{top:2vw;left:0;right:0;font-family:sans-serif;text-align:center;color:#000;}
+		h1{font-size:16vw;margin:8vw 0 0 0;}
+	</style>
+</head>
+<body style="background:#000">
+	<canvas id="c"></canvas>
+	<code id="a"><div id="p"><div id="pc"></div><div id="pu"></div></div></code>
+	<div id="t"><h1>VOIDCALL</h1>Graphics & Programming – Dominic Szablewski – phoboslab.org<br/>Music – Andreas Lösch – no-fate.net</br></br>CLICK TO START</div>
+	<script type="text/javascript" src="source/defs.js"></script>
+	<script type="text/javascript" src="source/utils.js"></script>
+	<script type="text/javascript" src="source/perlin_noise.js"></script>
+	<script type="text/javascript" src="source/model.js"></script>
+	<script type="text/javascript" src="source/map.js"></script>
+	<script type="text/javascript" src="source/renderer.js"></script>
+	<script type="text/javascript" src="source/input.js"></script>
+	<script type="text/javascript" src="source/entity.js"></script>
+	<script type="text/javascript" src="source/entity_unit.js"></script>
+	<script type="text/javascript" src="source/entity_unit_tech.js"></script>
+	<script type="text/javascript" src="source/entity_unit_med.js"></script>
+	<script type="text/javascript" src="source/entity_unit_grunt.js"></script>
+	<script type="text/javascript" src="source/entity_enemy.js"></script>
+	<script type="text/javascript" src="source/entity_unit_turret.js"></script>
+	<script type="text/javascript" src="source/entity_cursor.js"></script>
+	<script type="text/javascript" src="source/entity_lander.js"></script>
+	<script type="text/javascript" src="source/entity_particle.js"></script>
+	<script type="text/javascript" src="source/entity_well.js"></script>
+	<script type="text/javascript" src="source/entity_unit_harvester.js"></script>
+	<script type="text/javascript" src="source/astar.js"></script>
+	<script type="text/javascript" src="source/game.js"></script>
+
+	<script type="text/javascript" src="source/music_i_wish_we_are_alone_in_the_universe.js"></script>
+	<script type="text/javascript" src="source/sound_effects.js"></script>
+	<script type="text/javascript" src="source/audio.js"></script>
+
+	<script type="text/javascript" src="source/main.js"></script>
+</body></html>

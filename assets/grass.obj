@@ -1,0 +1,14 @@
+# Exported from Wings 3D 2.1.5
+mtllib grass.mtl
+o Cube1
+#4 vertices, 3 faces
+v 0.28395109 -0.99646204 -9.6771381e-2
+v -0.34650809 0.71417671 -7.0710266e-2
+v -6.5428860e-2 0.46868498 0.15828965
+v 0.23920239 1.99459479 2.6159008e-2
+g Cube1_default
+usemtl default
+s 1
+f 1// 3// 2//
+f 2// 3// 1//
+f 2// 3// 4//

@@ -1,0 +1,13 @@
+# Exported from Wings 3D 2.1.5
+mtllib select.mtl
+o Cube2
+#4 vertices, 2 faces
+v 0.0000000e+0 0.30000000 0.0000000e+0
+v -6.00000000 0.30000000 1.00000000
+v 1.00000000 0.30000000 -6.00000000
+v 1.00000000 0.30000000 1.00000000
+g Cube2_default
+usemtl default
+s 1
+f 1// 4// 3//
+f 2// 4// 1//
