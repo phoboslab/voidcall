@@ -31,14 +31,14 @@ let
 	game_story = [
 		[0, 2, 'kill it'],
 		[0, 9, 'kill it!!1'],
-		[0, 1, 'patch me up, doc'],
+		[0, 1, 'patch me up doc'],
 		[5, 4, 'on my way'],
 		[0, 2, 'they...'],
 		[0, 3, 'they killed isaacs'],
 		[2, 2, 'screw the mission'],
 		[2, 3, 'we have to get BACK!'],
 		[1, 2, 'I saw some energy wells'],
-		[1, 8, 'we can build harversters to get enough energy for a launch'],
+		[1, 8, 'we can build harvesters to get enough energy for a launch'],
 		[0, 0, 'use wasd/arrow keys to scroll, tab to cycle your selection']
 	],
 

@@ -6,7 +6,7 @@ class entity_unit_harvester_t extends entity_unit_t {
 		this._can_move = 0;
 		this._well = well;
 		this._well._dormant = 1;
-		this._name = 'harvester#'+random_int(0,0xffff).toString(16);
+		this._name = 'harvester#0x'+random_int(0,0xffff).toString(16);
 		game_energy_current += 18;
 		game_update_energy();
 	}

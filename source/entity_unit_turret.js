@@ -30,7 +30,7 @@ class entity_unit_turret_t extends entity_unit_t {
 			this._head_rotation += rotate_dir * game_tick;
 		}
 
-
+		this._anim_time += game_tick;
 		this._model_base(this.x+4, this.y+1, this.z+4, this._base_rotation);
 		this._model_head(this.x+4, this.y+1, this.z+4, this._head_rotation-Math.PI);
 

@@ -25,8 +25,8 @@ class entity_unit_t extends entity_t {
 				? 'reporting in'
 				: 'operational / uptime: '+
 					(this._anim_time|0)+
-					's / mfree: '+random_int(1400,1900)+
-					'bytes'
+					's / mfree: '+random_int(1400,1900) +
+					' bytes'
 		);
 	}
 
